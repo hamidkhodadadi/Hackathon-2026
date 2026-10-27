@@ -19,6 +19,17 @@ npm run build    # type-check + production build
 npm run lint     # Oxlint
 ```
 
+## Sharing
+
+```
+npm run build:html   # dist-html/lateral-load-path.html
+```
+
+That one HTML file is the whole app: send it by email, Teams, or OneDrive, and
+it opens with a double-click (no install, no server). Each browser autosaves its
+own work; use **Save** / **Load** to pass a project file along with it. Only the
+Code calc site-value lookup (USGS) needs internet.
+
 ## Docs
 
 - [problem.md](problem.md): what we're building, scope, and decisions
